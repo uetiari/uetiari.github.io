@@ -48,8 +48,11 @@
 
 
     <!-- início do slider -->
-    
-    <!-- fim do slider -->
+    <div class="topslide">
+        <img class="d-block w-100" src="assets/img/topslide.png" alt="Computador mais café igual a Código">
+    </div>
+
+          <!-- fim slider -->
 
     <!-- sobre -->
     <section class="sobre" id="sobre">
@@ -140,21 +143,21 @@
 
         <div class="col-lg-6 flex-column">
             
-                <form>
+                <form class="form-contato">
                         <div class="form-group">
                             <label for="inputName">Nome Completo</label>
-                            <input type="name" class="form-control" id="inputName" aria-describedby="name" placeholder="Seu nome completo">
+                            <input type="name" name="name" class="form-control" id="inputName" aria-describedby="name" placeholder="Seu nome completo">
                         </div>
                 
                         <div class="form-group">
-                            <label for="inputEmail1">Endereço de email</label>
-                            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                            <label for="inputEmail">Endereço de email</label>
+                            <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Seu email">
                             <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
                         </div>
                 
                         <div class="form-group">
                                 <label for="formControlTextarea1">Mensagem</label>
-                                <textarea class="form-control" id="formControlTextarea1" rows="3"></textarea>
+                                <textarea class="form-control" id="formControlTextarea1" name="text" rows="4"></textarea>
                         </div>
     
                         <button type="submit" class="btn">Enviar</button>
@@ -171,8 +174,10 @@
     </div>
 </footer>
 <!-- fim do footer -->
-    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

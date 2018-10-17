@@ -13,14 +13,15 @@ a:hover {
   justify-content: flex-end;
 }
 
-.carousel-banner{
-  height: 80vh;
+.topslide{
+  height: 60vh;
 }
 
-.carousel-banner img{
-  height: 80vh;
+.topslide img{
+  height: 60vh;
   object-fit: cover;
 }
+
 
 .sobre {
   margin-top: 50px;
@@ -30,14 +31,9 @@ h1.title{
   margin: 25px 0;
 }
 
-.main-grid img{
-  height: 200px;
-}
-
 .row-margin>div{
   margin-bottom: 25px;
 }
-
 
 .btn {
   background-color: darkgray;
