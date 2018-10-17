@@ -3,15 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Ariane Ueti | Desenvolvedora Front-End</title>
 </head>
 <body>
 <!-- início da navbar -->
-    <nav class="navbar nav-primary fixed-top bg-trasnparent text-white">
+    <nav class="navbar nav-primary fixed-top navbar-expand-lg bg-white text-dark">
         <div class="container">
-            <h4><a href="#">Ariane Ueti</a></h4>
+            <a class="navbar-brand" href="#"><strong>Ariane Ueti | Front-End</strong></a>
             <!-- botão hamburguer -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -31,34 +31,46 @@
 <!-- fim da navbar -->
 <!-- início do slider -->
 <section class="slider">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets/img/cat01.jpg" alt="Work 1">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/img/cat02.jpg" alt="Work 2">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/img/cat06.jpg" alt="Work 3">
-                  </div>
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/img/slider01.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bem-vindo a Italia</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/slider02.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Italia é um país lindooo</h5>
+                            <p>asuhaushu uahsaushaush</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/slider03.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Cursos de Italiano</h5>
+                        </div>
+                    </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Anterior</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Próximo</span>
                 </a>
               </div>
 </section>
 <!-- fim do slider -->
+
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
