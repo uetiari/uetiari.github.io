@@ -1,13 +1,43 @@
-.navbar {
-  display: flex;
-  justify-content: flex-end; }
+.nav-primary .navbar-collapse{
+  justify-content: flex-end;
+}
 
-.carousel-banner img {
+a {
+  color: grey;
+}
+a:hover {
+  color: rgb(255, 191, 212);
+}
+
+.carousel-banner{
   height: 80vh;
-  object-fit: cover; }
+}
 
-.carousel-banner {
+.carousel-banner img{
   height: 80vh;
-  margin-top: 56px; }
+  object-fit: cover;
+}
 
+.sobre {
+  margin-top: 50px;
+}
+
+h1.title{
+  margin: 25px 0;
+}
+
+.main-grid img{
+  height: 200px;
+}
+
+.row-margin>div{
+  margin-bottom: 25px;
+}
+
+
+
+.call-to-action>.container{
+  margin-top: 15px;
+  padding: 15px 0;
+}
 /*# sourceMappingURL=style.css.map */
