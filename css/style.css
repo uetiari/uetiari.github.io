@@ -1,12 +1,15 @@
-.nav-primary .navbar-collapse{
-  justify-content: flex-end;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 a {
   color: grey;
 }
 a:hover {
   color: rgb(255, 191, 212);
+}
+
+.nav-primary .navbar-collapse{
+  justify-content: flex-end;
 }
 
 .carousel-banner{
@@ -35,9 +38,13 @@ h1.title{
 }
 
 
-
-.call-to-action>.container{
-  margin-top: 15px;
-  padding: 15px 0;
+.btn {
+  background-color: darkgray;
+  color: white;
 }
+.btn:hover{
+  background-color: rgb(255, 191, 212);
+  color: #000;
+}
+
 /*# sourceMappingURL=style.css.map */
