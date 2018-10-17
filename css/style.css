@@ -6,7 +6,7 @@ a {
   color: grey;
 }
 a:hover {
-  color: rgb(255, 191, 212);
+  color: orange;
 }
 
 .nav-primary .navbar-collapse{
@@ -22,7 +22,6 @@ a:hover {
   object-fit: cover;
 }
 
-
 .sobre {
   margin-top: 50px;
 }
@@ -35,13 +34,19 @@ h1.title{
   margin-bottom: 25px;
 }
 
+
 .btn {
   background-color: darkgray;
   color: white;
 }
 .btn:hover{
-  background-color: rgb(255, 191, 212);
+  background-color:orange;
   color: #000;
+}
+
+.btn-github:hover, .btn-linkedin:hover{
+  background-color:orange;
+  text-decoration: none;
 }
 
 .footer {
@@ -49,4 +54,15 @@ h1.title{
   padding: 20px;
 
 }
+
+span.error {
+  color: rgb(255, 173, 173);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+input.error, textarea.error {
+  border: 1px solid rgb(255, 173, 173);
+}
+
 /*# sourceMappingURL=style.css.map */
