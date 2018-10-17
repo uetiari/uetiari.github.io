@@ -1,0 +1,55 @@
+a {
+  color: gray;
+}
+
+a:hover {
+  color: rgb(245, 169, 169);
+} 
+
+.nav-primary .navbar-collapse{
+  justify-content: flex-end;
+}
+
+.carousel-banner{
+  height: 80vh;
+  margin-top: 56px;
+}
+
+.carousel-banner img{
+  height: 80vh;
+  object-fit: cover;
+}
+
+.carousel-banner h5{
+  font-size: 40px;
+}
+
+h1.title{
+  margin: 25px 0;
+}
+
+.main-grid img{
+  height: 200px;
+}
+
+.row-margin>div{
+  margin-bottom: 25px;
+}
+
+.call-to-action>.container{
+  margin-top: 15px;
+  padding: 15px 0;
+}
+
+.niveis {
+margin-top: 20px;
+}
+
+.progress {
+  margin-top: 15px;
+  text-align: left;
+  height: 20px;
+}
+
+
+/*# sourceMappingURL=style.css.map */
