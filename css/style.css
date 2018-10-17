@@ -6,7 +6,7 @@ a {
   color: grey;
 }
 a:hover {
-  color: orange;
+  color: rgb(255, 182, 193);;
 }
 
 .nav-primary .navbar-collapse{
@@ -26,6 +26,11 @@ a:hover {
   margin-top: 50px;
 }
 
+.progress-bar {
+  background-color: rgb(255, 182, 193); 
+  color: black;
+}
+
 h1.title{
   margin: 25px 0;
 }
@@ -41,12 +46,12 @@ h1.title{
 }
 
 .btn:hover{
-  background-color:orange;
+  background-color: rgb(255, 182, 193);;
   color: #000;
 }
 
 .btn-github:hover, .btn-linkedin:hover{
-  background-color:orange;
+  background-color: rgb(255, 182, 193);
   text-decoration: none;
 }
 
@@ -60,6 +65,7 @@ span.error {
   color: rgb(255, 173, 173);
   font-weight: bold;
   font-size: 12px;
+  font-style: italic;
 }
 
 input.error, textarea.error {
