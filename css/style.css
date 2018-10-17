@@ -1,5 +1,6 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
 }
 a {
   color: grey;
@@ -47,5 +48,9 @@ h1.title{
   color: #000;
 }
 
+.footer {
+  font-size: 15px;
+  padding: 20px;
 
+}
 /*# sourceMappingURL=style.css.map */
