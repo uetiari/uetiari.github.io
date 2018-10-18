@@ -14,13 +14,13 @@ a:hover {
   color: white;
 }
 
-.topslide{
-  height: 60vh;
+.banner {
+  height: 40vh;
+  background-color: #2f2f2f;
 }
 
-.topslide img{
-  height: 60vh;
-  object-fit: cover;
+.banner img{
+  justify-content: center;
 }
 
 .sobre {
