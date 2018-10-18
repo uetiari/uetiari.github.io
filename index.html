@@ -12,28 +12,23 @@
 
 <body>
     <!-- início da navbar -->
-    <nav class="navbar nav-primary navbar-expand-lg bg-white text-dark">
+    <nav class="navbar nav-primary navbar-expand-lg text-white">
         <div class="container">
-            <a class="navbar-brand text-uppercase" href="#">
-                Ariane Ueti | Front-End
-            </a>
+            <a class="navbar-brand text-dark font-weight-bold text-uppercase" href="#">Ariane Ueti | Front-End</a> 
             <!-- botão hamburguer -->
             <button class="navbar-toggler border border-secondary" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> 
             <!-- botão hamburguer -->
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav text-uppercase">
-                    <li class="nav-item text-white">
-                        <a class="nav-link" href="#">Início</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Inicio</a>
                     </li>
-                    <li class="nav-item text-white">
+                    <li class="nav-item">
                         <a class="nav-link" href="#sobre">Sobre</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#">Serviços</a>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
@@ -43,13 +38,12 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> 
     <!-- fim da navbar -->
-
-
+   
     <!-- início do slider -->
     <div class="topslide">
-        <img class="d-block w-100" src="assets/img/topslide.png" alt="Computador mais café igual a Código">
+        <img class="align-self-start d-block w-100" src="assets/img/topslide.png" alt="Computador mais café igual a Código">
     </div>
 
           <!-- fim slider -->
@@ -67,61 +61,93 @@
                         em uma área onde não se via muitas mulheres atuando. Colocado como um desafio próprio, deixou a fotografia
                         como hobby e foi em uma nova jornada de aprendizado, desta vez, no mundo da programação.
                     </p>
-
-                    <div class="niveis">
-                        <h4>Habilidades</h4>
-                            <div class="progress mb-1">
-                                    <div class="progress-bar progress-bar-striped text-center text-uppercase" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">html</div>
-                            </div>
-                            <div class="progress mb-1">
-                                    <div class="progress-bar progress-bar-striped text-center text-uppercase" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">css</div>
-                            </div>
-        
-                            <div class="progress mb-1">
-                                    <div class="progress-bar progress-bar-striped text-center text-uppercase" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">javascript</div>
-                            </div>
-        
-                            <div class="progress mb-1">
-                                    <div class="progress-bar progress-bar-striped text-center text-uppercase" role="progressbar" style="width: 20%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">github</div>
-                            </div>
-                        </div>
-                    </div>
-                
+                </div>
            
                 <div class="perfil col-lg-4">
-                    <img class="img-fluid rounded float-right img-circle" src="assets/img/ariane-ueti.jpg" alt="Foto de Ariane Ueti">
+                    <img class="align-self-center mr-3 img-fluid rounded float-right rounded-circle" src="assets/img/ariane-ueti.jpg" alt="Foto de Ariane Ueti">
+                </div> 
+            </div>
+            <div class="row row-margin mt-5">
+                <div class="skills container">
+                    <img class="img-fluid mx-auto d-block" src="assets/img/wordcloud.png" alt="Habilidades">
                 </div> 
             </div>
         </div>
     </section>
     <!-- fim sobre -->
 
-
     <!-- portfolio -->
     <main class="main-grid" id="portfolio">
         <div class="container mt-4">
-            <div class="row row-margin">
-                <div class="col-lg-4">
-                    <img class="img-fluid" src="assets/img/slider03.jpg" alt="Work 1">
-                </div>
-                <div class="col-lg-4">
-                    <img class="img-fluid" src="assets/img/slider03.jpg" alt="Work 1">
-                </div>
-                <div class="col-lg-4">
-                    <img class="img-fluid" src="assets/img/slider03.jpg" alt="Work 1">
-                </div>
-            </div>
+                <h4>Portfolio</h4>
+                <div class="row row-margin">
+                        <div class="col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-sm" src="assets/img/proj06.png" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Aplicação do SASS</h5>
+                                    <p class="card-text">Página com SASS aplicado ao código</p>
+                                    <a href="https://uetiari.github.io/preprocessadores-1/" target="_blank">Confira online</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-sm" src="assets/img/proj05.png" >
+                                <div class="card-body">
+                                    <h5 class="card-title">To Do List</h5>
+                                    <p class="card-text">Lista online de Tarefas feito em Javascript</p>
+                                    <a href="https://uetiari.github.io/todolist-proj/" target="_blank">Confira online</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-sm" src="assets/img/proj04.png" >
+                                <div class="card-body">
+                                    <h5 class="card-title">M de Maravilhosa </h5>
+                                    <p class="card-text">Participação no site com Celebridade Carol Shaw</p>
+                                    <a href="https://uetiari.github.io/projeto-1_m-de-maravilhosa/" target="_blank">Confira online</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
             <div class="row row-margin">
                 <div class="col-lg-4">
-                    <img class="img-fluid" src="assets/img/slider03.jpg" alt="Work 1">
+                    <div class="card" style="width: 18rem;">
+                        <img class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-sm" src="assets/img/proj03.png" >
+                        <div class="card-body">
+                            <h5 class="card-title">Tabela com Estilos</h5>
+                            <p class="card-text">Página com tabela estilizada para controle financeiro</p>
+                            <a href="https://uetiari.github.io/exerciciotabela/" target="_blank">Confira online</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-4">
-                    <img class="img-fluid" src="assets/img/slider03.jpg" alt="Work 1">
+                    <div class="card" style="width: 18rem;">
+                        <img class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-sm" src="assets/img/proj02.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Website Semântico</h5>
+                            <p class="card-text">Página com códigos semânticos</p>
+                            <a href="https://uetiari.github.io/website-semantico/" target="_blank">Confira online</a>
+                        </div>
+                    </div>
                 </div>
+            
                 <div class="col-lg-4">
-                    <img class="img-fluid" src="assets/img/slider03.jpg" alt="Work 1">
+                    <div class="card" style="width: 18rem;">
+                        <img class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-sm" src="assets/img/proj01.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Perfil </h5>
+                            <p class="card-text">Página com perfil simples com Foto e redes sociais</p>
+                            <a href="https://uetiari.github.io/profile-sample" target="_blank">Confira online</a>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            
             </div>
         </div>
         <!-- fim portfolio -->
@@ -170,7 +196,7 @@
 <!-- fim do contato -->
 <!-- footer -->
 <footer>
-    <div class="footer bg-dark text-white text-center">
+    <div class="footer bg-dark text-secondary text-center">
         Copyright @ Ariane Ueti 2018
     </div>
 </footer>
@@ -180,5 +206,4 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>
-
 </html>
