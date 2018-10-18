@@ -11,6 +11,7 @@ a:hover {
 
 .nav-primary .navbar-collapse{
   justify-content: flex-end;
+  color: white;
 }
 
 .topslide{
