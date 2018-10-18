@@ -9,7 +9,7 @@ a:hover {
   color: rgb(255, 182, 193);;
 }
 
-.nav-primary .navbar-collapse{
+.nav-primary .navbar-collapse {
   justify-content: flex-end;
   color: white;
 }
