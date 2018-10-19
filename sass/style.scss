@@ -1,14 +1,81 @@
-.navbar {
-    display: flex;
-    justify-content: flex-end
-}
-
-.carousel-banner img {
-        height: 80vh;
-        object-fit: cover;
-    }
-
-.carousel-banner{
-        height: 80vh;
-        margin-top: 56px;
-    }
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  a {
+    color: grey;
+  }
+  a:hover {
+    color: rgb(255, 182, 193);
+  }
+  
+  .nav-primary .navbar-collapse {
+    justify-content: flex-end;
+    color: white;
+  }
+  
+  .navbar-toggler {
+    color: #2f2f2f;
+  }
+  
+  .banner {
+    height: 40vh;
+    background-color: #2f2f2f;
+  }
+  
+  .banner img{
+    justify-content: center;
+  }
+  
+  .sobre {
+    margin-top: 50px;
+  }
+  
+  .progress-bar {
+    background-color: rgb(255, 182, 193); 
+    color: black;
+  }
+  
+  h1.title{
+    margin: 25px 0;
+  }
+  
+  .row-margin>div{
+    margin-bottom: 25px;
+  }
+  
+  
+  .btn {
+    background-color: darkgray;
+    color: white;
+  }
+  
+  .btn:hover{
+    background-color: rgb(255, 182, 193);;
+    color: #000;
+  }
+  
+  .btn-github:hover, .btn-linkedin:hover{
+    background-color: rgb(255, 182, 193);
+    text-decoration: none;
+  }
+  
+  .footer {
+    font-size: 15px;
+    padding: 20px;
+  
+  }
+  
+  span.error {
+    color: rgb(255, 173, 173);
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+  }
+  
+  input.error, textarea.error {
+    border: 1px solid rgb(255, 173, 173);
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  
