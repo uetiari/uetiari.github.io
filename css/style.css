@@ -21,16 +21,6 @@ a:hover {
   color: lightpink;
 }
 
-.nav-primary .navbar-collapse {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  color: white;
-}
-
-.navbar-toggler {
-  color: #2f2f2f;
-}
 
 .banner {
   background: url("../assets/img/topslide.png");
@@ -45,18 +35,18 @@ a:hover {
 
 @media (max-width: 420px) {
   .banner {
-    height: 400px;
+    height: 200px;
     background-position: -360px 0;
   }
 }
 
-.sobre, .portfolio {
-  margin-top: 50px;
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
 }
 
-.progress-bar {
-  background-color: lightpink;
-  color: black;
+.sobre, .portfolio {
+  margin-top: 50px;
 }
 
 h1.title {
@@ -97,4 +87,3 @@ span.error {
 input.error, textarea.error {
   border: 1px solid #ffadad;
 }
-/*# sourceMappingURL=style.css.map */
