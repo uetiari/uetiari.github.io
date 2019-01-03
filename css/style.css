@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
@@ -23,17 +33,24 @@ a:hover {
 }
 
 .banner {
-  height: 40vh;
-  background-color: #2f2f2f;
+  background: url("../assets/img/topslide.png");
+  background-size: cover;
+  margin-top: 60px;
+  text-align: center;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.banner img {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+@media (max-width: 420px) {
+  .banner {
+    height: 400px;
+    background-position: -360px 0;
+  }
 }
 
-.sobre {
+.sobre, .portfolio {
   margin-top: 50px;
 }
 

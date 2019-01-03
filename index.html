@@ -23,15 +23,10 @@
 
 <body>
     <!-- início da navbar -->
-    <nav class="navbar nav-primary navbar-expand-lg text-white">
+    <nav class="navbar nav-primary navbar-expand-lg fixed-top bg-white">
         <div class="container">
             <a class="navbar-brand text-dark font-weight-bold text-uppercase" href="#">Ariane Ueti | Front-End</a> 
-            <!-- botão hamburguer 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-          botão hamburguer -->
+           
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav text-uppercase">
                     <li class="nav-item ">
@@ -53,39 +48,49 @@
     <!-- fim da navbar -->
    
     <div class="banner">
-        <img class="align-self-start d-block w-100" src="assets/img/topslide.png" alt="Computador mais café igual a Código">
+        <!-- <img class="align-self-start d-block w-100" src="assets/img/topslide.png" alt="Computador mais café igual a Código"> -->
     </div>
+    <div id="sobre"></div>
 
     <!-- sobre -->
-    <section class="sobre pt-4" id="sobre">
+    <section class="sobre pt-4">
         <div class="container">
             <div class="row row-margin">
                 <div class="col-lg-8 flex-column">
                     <h4>Sobre</h4>
-                    <p>Estudou Artes Visuais Multimídia no Paraná. Em 2013 obteve Certificação Técnica em Fotografia Digital
+                    <p>Estudou Artes Visuais Multimídia no Paraná. Em 2013 obteve Certificação Técnica em Fotografia
+                        Digital
                         com um dos fotógrafos mais influentes do país, Thales Trigo, na Escola Fullframe de Fotografia, em
                         São Paulo - SP.</p>
-                    <p>Mas acompanhando meu Marido, especialista na área de Games, em diversos eventos que despertou interesse
-                        em uma área onde não se via muitas mulheres atuando. Colocado como um desafio próprio, deixou a fotografia
+                    <p>Mas acompanhando meu Marido, especialista na área de Games, em diversos eventos que despertou
+                        interesse
+                        em uma área onde não se via muitas mulheres atuando. Colocado como um desafio próprio, deixou a
+                        fotografia
                         como hobby e foi em uma nova jornada de aprendizado, desta vez, no mundo da programação.
                     </p>
                 </div>
-           
                 <div class="perfil col-lg-4">
-                    <img class="align-self-center mr-3 img-fluid rounded float-right rounded-circle" src="assets/img/ariane-ueti.jpg" alt="Foto de Ariane Ueti">
-                </div> 
+                    <img class="align-self-center mr-3 img-fluid rounded float-right rounded-circle" src="assets/img/ariane-ueti.jpg"
+                        alt="Foto de Ariane Ueti">
+                </div>
             </div>
-            <div class="row row-margin mt-5">
-                <div class="skills container">
-                    <img class="img-fluid mx-auto d-block" src="assets/img/wordcloud.png" alt="Habilidades">
-                </div> 
-            </div>
-        </div>
     </section>
     <!-- fim sobre -->
 
+    <!-- inicio skills -->
+    <section class="skills">
+        <div class="row row-margin mt-5">
+            <div class="skills container">
+                <img class="img-fluid mx-auto d-block" src="assets/img/wordcloud.png" alt="Habilidades">
+            </div>
+        </div>
+    </section>
+    <!-- fim skills -->
+
+    <div id="portfolio"></div>
+
     <!-- portfolio -->
-    <main class="main-grid bg-light pt-4" id="portfolio">
+    <section class="portfolio main-grid bg-light pt-5">
         <div class="container">
                 <h4>Portfolio</h4>
                 <div class="row row-margin">
@@ -98,7 +103,7 @@
                                         <a href="https://www.climatizartec.com.br/" target="_blank">Confira online</a>
                                     </div>
                                 </div>
-
+                        </div>
                         <div class="col-lg-4">
                             <div class="card h-100">
                                 <img class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-sm" src="assets/img/proj06.png" >
@@ -158,8 +163,8 @@
             
             </div>
         </div>
-        <!-- fim portfolio -->
-    </main>
+    </section>
+  <!-- fim portfolio -->
 
 <!--Início contato-->
 <section class="contato" id="contato">
@@ -200,13 +205,15 @@
         </div>
 </section>
 <!-- fim do contato -->
+
 <!-- footer -->
 <footer>
     <div class="footer bg-dark text-secondary text-center">
-        Copyright @ Ariane Ueti 2018
+        Copyright @ Ariane Ueti 2019
     </div>
 </footer>
 <!-- fim do footer -->
+
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
