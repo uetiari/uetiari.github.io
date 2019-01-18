@@ -11,12 +11,11 @@ a:hover {
 }
 
 .carousel-banner{
-  height: 80vh;
+
   margin-top: 56px;
 }
 
 .carousel-banner img{
-  height: 80vh;
   object-fit: cover;
 }
 
