@@ -1,89 +1,76 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
 }
-
 a {
   color: grey;
 }
-
 a:hover {
-  color: lightpink;
+  color: rgb(255, 182, 193);;
 }
 
-
-.banner {
-  background: url("../assets/img/topslide.png");
-  background-size: cover;
-  margin-top: 60px;
-  text-align: center;
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.nav-primary .navbar-collapse{
+  justify-content: flex-end;
+  color: white;
 }
 
-@media (max-width: 420px) {
-  .banner {
-    height: 200px;
-    background-position: -360px 0;
-  }
+.topslide{
+  height: 60vh;
 }
 
-.navbar-collapse {
-  display: flex;
-  justify-content: end;
+.topslide img{
+  height: 60vh;
+  object-fit: cover;
 }
 
-.sobre, .portfolio {
+.sobre {
   margin-top: 50px;
 }
 
-h1.title {
+.progress-bar {
+  background-color: rgb(255, 182, 193); 
+  color: black;
+}
+
+h1.title{
   margin: 25px 0;
 }
 
-.row-margin > div {
+.row-margin>div{
   margin-bottom: 25px;
 }
+
 
 .btn {
   background-color: darkgray;
   color: white;
 }
 
-.btn:hover {
-  background-color: lightpink;
+.btn:hover{
+  background-color: rgb(255, 182, 193);;
   color: #000;
 }
 
-.btn-github:hover, .btn-linkedin:hover {
-  background-color: lightpink;
+.btn-github:hover, .btn-linkedin:hover{
+  background-color: rgb(255, 182, 193);
   text-decoration: none;
 }
 
 .footer {
   font-size: 15px;
   padding: 20px;
+
 }
 
 span.error {
-  color: #ffadad;
+  color: rgb(255, 173, 173);
   font-weight: bold;
   font-size: 12px;
   font-style: italic;
 }
 
 input.error, textarea.error {
-  border: 1px solid #ffadad;
+  border: 1px solid rgb(255, 173, 173);
 }
+
+/*# sourceMappingURL=style.css.map */
