@@ -55,7 +55,7 @@ h1.title{
   color: #000;
 }
 
-.btn-github:hover, .btn-linkedin:hover{
+.btn-github:hover, .btn-linkedin:hover, .btn-mail:hover{
   background-color: rgb(255, 182, 193);
   text-decoration: none;
 }
