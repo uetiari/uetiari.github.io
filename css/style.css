@@ -27,8 +27,14 @@ a:hover {
   background-color: #2d2d2d;
 } 
 
+.profileimg {
+  height: 50%;
+  width: 50%;
+}
+
 .sobre {
   margin-top: 50px;
+
 }
 
 .progress-bar {
