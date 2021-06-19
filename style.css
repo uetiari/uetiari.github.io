@@ -10,7 +10,8 @@ https://coolors.co/22223b-4a4e69-9c707f-ddb3b3-f3e1e1
 --independence: #4a4e69ff;
 --mountbatten-pink: #9c707fff; #9b526a;
 --baby-pink: #ddb3b3ff;
---misty-rose: #f3e1e1ff;
+--misty-rose: #f3e1e1ff; #faeded;
+--cinza super claro: #ececec;
 
 SCSS Gradient
 $gradient-top: linear-gradient(0deg, #22223bff, #4a4e69ff, #9c707fff, #ddb3b3ff, #f3e1e1ff);
@@ -33,8 +34,14 @@ body {
 
 a {
   color: #808080;
+  text-decoration: none;
 }
 
 a:hover {
   color: #9b526a;
+}
+
+.container {
+  background-color: #ececec;
+  width: 100%;
 }
