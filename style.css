@@ -1,227 +1,40 @@
-*,
-*:before,
-*:after {
+*{
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0
 }
 
+/* Color palete HEX
+https://coolors.co/22223b-4a4e69-9c707f-ddb3b3-f3e1e1
+--space-cadet: #22223bff;
+--independence: #4a4e69ff;
+--mountbatten-pink: #9c707fff; #9b526a;
+--baby-pink: #ddb3b3ff;
+--misty-rose: #f3e1e1ff;
+
+SCSS Gradient
+$gradient-top: linear-gradient(0deg, #22223bff, #4a4e69ff, #9c707fff, #ddb3b3ff, #f3e1e1ff);
+$gradient-right: linear-gradient(90deg, #22223bff, #4a4e69ff, #9c707fff, #ddb3b3ff, #f3e1e1ff);
+$gradient-bottom: linear-gradient(180deg, #22223bff, #4a4e69ff, #9c707fff, #ddb3b3ff, #f3e1e1ff);
+$gradient-left: linear-gradient(270deg, #22223bff, #4a4e69ff, #9c707fff, #ddb3b3ff, #f3e1e1ff);
+$gradient-top-right: linear-gradient(45deg, #22223bff, #4a4e69ff, #9c707fff, #ddb3b3ff, #f3e1e1ff);
+$gradient-bottom-right: linear-gradient(135deg, #22223bff, #4a4e69ff, #9c707fff, #ddb3b3ff, #f3e1e1ff);
+$gradient-top-left: linear-gradient(225deg, #22223bff, #4a4e69ff, #9c707fff, #ddb3b3ff, #f3e1e1ff);
+$gradient-bottom-left: linear-gradient(315deg, #22223bff, #4a4e69ff, #9c707fff, #ddb3b3ff, #f3e1e1ff);
+$gradient-radial: radial-gradient(#22223bff, #4a4e69ff, #9c707fff, #ddb3b3ff, #f3e1e1ff);
+*/
+
 body {
-  font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-family:'Montserrat', sans-serif;
+  color:#22223bff;
+  background-image: url(assets/img/pattern.png);
+  background-repeat: repeat;
 }
 
 a {
-  color: gray;
+  color: #808080;
 }
 
 a:hover {
-  color: rgb(245, 169, 169);
-} 
-
-.nav-primary .navbar-collapse{
-  justify-content: flex-end;
+  color: #9b526a;
 }
-
-.carousel-banner{
-
-  margin-top: 56px;
-}
-
-.carousel-banner img{
-  object-fit: cover;
-}
-
-.carousel-banner h5{
-  font-size: 40px;
-}
-
-h1.title{
-  margin: 25px 0;
-}
-
-.main-grid img{
-  height: 200px;
-}
-
-.row-margin>div{
-  margin-bottom: 25px;
-}
-
-.call-to-action>.container{
-  margin-top: 15px;
-  padding: 15px 0;
-}
-
-.niveis {
-margin-top: 20px;
-}
-
-.progress {
-  margin-top: 15px;
-  text-align: left;
-  height: 20px;
-}
-/* 
-body {
-  font-family: Verdana, Tahoma, sans-serif;
-  font-size: 15px;
-}
-a {
-  color: grey;
-}
-a:hover {
-  color: rgb(255, 182, 193);;
-}
-
-.nav-primary .navbar-collapse{
-  justify-content: flex-end;
-  color: white;
-}
-
-.topslide {
-  background-color: red; 
-  background-size: cover;
-} 
-
-.topslide {    
-  background: url(../assets/img/topslide.png);
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #2d2d2d;
-} 
-
-.profileimg {
-  height: 50%;
-  width: 50%;
-}
-
-.sobre {
-  margin-top: 50px;
-
-}
-
-.progress-bar {
-  background-color: rgb(255, 182, 193); 
-  color: black;
-}
-
-h1.title{
-  margin: 25px 0;
-}
-
-.row-margin>div{
-  margin-bottom: 25px;
-}
-
-
-.btn {
-  background-color: darkgray;
-  color: white;
-}
-
-.btn:hover{
-  background-color: rgb(255, 182, 193);;
-  color: #000;
-}
-
-.btn-github:hover, .btn-linkedin:hover, .btn-mail:hover{
-  background-color: rgb(255, 182, 193);
-  text-decoration: none;
-}
-
-.footer {
-  font-size: 15px;
-  padding: 20px;
-
-}
-
-span.error {
-  color: rgb(255, 173, 173);
-  font-weight: bold;
-  font-size: 12px;
-  font-style: italic;
-}
-
-input.error, textarea.error {
-  border: 1px solid rgb(255, 173, 173);
-}
-
-____________________________
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-}
-a {
-  color: grey;
-}
-a:hover {
-  color: rgb(255, 182, 193);
-}
-
-.nav-primary .navbar-collapse {
-  justify-content: flex-end;
-  color: white;
-}
-
-.navbar-toggler {
-  color: #2f2f2f;
-}
-
-.banner {
-  height: 40vh;
-  background-color: #2f2f2f;
-}
-
-.banner img{
-  justify-content: center;
-}
-
-.sobre {
-  margin-top: 50px;
-}
-
-.progress-bar {
-  background-color: rgb(255, 182, 193); 
-  color: black;
-}
-
-h1.title{
-  margin: 25px 0;
-}
-
-.row-margin>div{
-  margin-bottom: 25px;
-}
-
-
-.btn {
-  background-color: darkgray;
-  color: white;
-}
-
-.btn:hover{
-  background-color: rgb(255, 182, 193);;
-  color: #000;
-}
-
-.btn-github:hover, .btn-linkedin:hover{
-  background-color: rgb(255, 182, 193);
-  text-decoration: none;
-}
-
-.footer {
-  font-size: 15px;
-  padding: 20px;
-
-}
-
-span.error {
-  color: rgb(255, 173, 173);
-  font-weight: bold;
-  font-size: 12px;
-  font-style: italic;
-}
-
-input.error, textarea.error {
-  border: 1px solid rgb(255, 173, 173);
-} */
