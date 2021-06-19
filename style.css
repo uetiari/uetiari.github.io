@@ -45,3 +45,9 @@ a:hover {
   background-color: #ececec;
   width: 100%;
 }
+
+.profile_photo{
+  width: 10%;
+  border-radius: 50%;
+  border: 10px solid #f3e1e1ff;
+}
