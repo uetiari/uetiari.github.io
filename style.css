@@ -41,10 +41,6 @@ a:hover {
   color: #9b526a;
 }
 
-ul, ol {
-
-}
-
 .container {
   width: 80%;
   margin: auto;
@@ -52,17 +48,21 @@ ul, ol {
 }
 
 h1 {
-  color: #4a4e69ff;
+  color: #22223bff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
 h2 {
-  color: #22223bff;
+  color: #4a4e69ff;
   margin-bottom: 20px;
 }
 p {
   margin-bottom: 20px;
+}
+
+ul {
+list-style: none;
 }
 
 .menu{
@@ -73,7 +73,7 @@ p {
   align-items: center;
   }
 
-.profile {
+.profile, .contact, .footer{
   width: 80%;
   display: flex;
   margin: auto;
@@ -98,7 +98,7 @@ p {
   width: 80%;
   margin: auto;
   display: flex;
-  text-align: center;
+  text-align: left;
   margin-top: 50px;
   
 }
@@ -107,4 +107,31 @@ p {
   width: 30%;
   margin-left: 100px;
   margin-top: 0;
+}
+
+.contact {
+  flex-direction: column;
+}
+
+.contact a{
+  text-transform:lowercase;
+  font-weight: 600;
+}
+
+.social a{
+margin-right: 10px;
+}
+
+.social_img:hover{
+  background-color: #f3e1e1ff;
+}
+
+.footer{
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.heart{
+  color: #9b526a;
+
 }
