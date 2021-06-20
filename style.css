@@ -54,11 +54,15 @@ ul, ol {
 h1 {
   color: #4a4e69ff;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
-.menu_bar{
-  display: inline;
-
+.menu{
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding: 20px;
 }
 
 .perfil {
