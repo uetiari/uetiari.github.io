@@ -57,18 +57,32 @@ h1 {
   font-weight: bold;
 }
 
-.menu{
-  font-weight: bold;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  padding: 20px;
+h2 {
+  color: #22223bff;
+  margin-bottom: 20px;
+}
+p {
+  margin-bottom: 20px;
 }
 
-.perfil {
-  width: 80%;
+
+.menu{
+  width: 100%;
+  font-weight: bold;
+  padding: 35px;
+  text-align: right;
   align-items: center;
+  }
+
+.profile {
+  width: 80%;
+  display: flex;
   margin: auto;
+  margin-top: 20px;
+  }
+
+.about_parag{
+  margin-left: 40px;
 }
 
 .city {
@@ -76,7 +90,7 @@ h1 {
 }
 
 .profile_photo{
-  width: 10%;
+  width: 170px;
   border-radius: 50%;
   border: 10px solid #f3e1e1ff;
 }
