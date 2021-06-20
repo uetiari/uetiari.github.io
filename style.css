@@ -42,7 +42,7 @@ a:hover {
 }
 
 ul, ol {
-  list-style: none;
+
 }
 
 .container {
@@ -64,7 +64,6 @@ h2 {
 p {
   margin-bottom: 20px;
 }
-
 
 .menu{
   width: 100%;
@@ -93,4 +92,19 @@ p {
   width: 170px;
   border-radius: 50%;
   border: 10px solid #f3e1e1ff;
+}
+
+.skills{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.wordcloud {
+  width: 30%;
+  margin-left: 100px;
+  margin-top: 0;
 }
