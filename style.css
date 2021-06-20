@@ -27,23 +27,48 @@ $gradient-radial: radial-gradient(#22223bff, #4a4e69ff, #9c707fff, #ddb3b3ff, #f
 
 body {
   font-family:'Montserrat', sans-serif;
-  color:#22223bff;
   background-image: url(assets/img/pattern.png);
-  background-repeat: repeat;
+  
 }
 
 a {
   color: #808080;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 a:hover {
   color: #9b526a;
 }
 
+ul, ol {
+  list-style: none;
+}
+
 .container {
+  width: 80%;
+  margin: auto;
   background-color: #ececec;
-  width: 100%;
+}
+
+h1 {
+  color: #4a4e69ff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu_bar{
+  display: inline;
+
+}
+
+.perfil {
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+
+.city {
+  color: #4a4e69ff;
 }
 
 .profile_photo{
